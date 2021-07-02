@@ -28,3 +28,4 @@ Multivariate linear regressions (conducted on the full study population, then st
 ## Step 4 - Tables & Figures
 Ploting the association between exposures and functional outcome using heatmaps.
 
+[![DOI](https://zenodo.org/badge/382270985.svg)](https://zenodo.org/badge/latestdoi/382270985)
