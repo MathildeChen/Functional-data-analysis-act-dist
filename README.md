@@ -8,7 +8,21 @@ Data were analysed using R 3.6.1 (http://www.r-project.org), analyses required d
 - REFUND for function-on-scalar regressions (version 0.1-21, https://cran.r-project.org/web/packages/refund/refund.pdf)
 - pracma for trapezoidal integration of functional coefficients (version 2.2.9, https://cran.r-project.org/web/packages/pracma/pracma.pdf)
 
-## Step 1 - Data  
+Here is a schema of the workflow: 
+
+![Vignette](https://user-images.githubusercontent.com/42891458/206490791-0dd0d6dd-cc03-48fb-b9b8-f8633eb493a8.PNG)
+
+More details on each steps are provided in the following sections:
+
+## Step 0 - Data & activity distribution computation
+Computation of activity distribution function from accelerometer data. It involves differents steps that are represented in the workflow: 
+- characterise the PDF of each individual using the kernel smoothing method
+- standardize kernel densities
+- estimate activity distribution 
+
+More information on the computation of the activity distribution function in the following document: Kernel_density_computation.pdf
+
+## Step 1 - Building datasets  
 Data from Whitehall II accelerometer-substudy. 
 
 Data should include:
