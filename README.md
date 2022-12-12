@@ -1,4 +1,4 @@
-# Cross-sectional and prospective association of socio-demographic, behavioural, and health-related factors with objectively-assessed physical activity and sedentary time in older adults
+# Individual Barriers to an Active Lifestyle at Older Ages Among Whitehall II Study Participants After 20 Years of Follow-up
 
 Code for functional and multivariate linear regression to analyse the association between socio-demographic, behavioural, and health-related factors with a functional (activity intensity distribution function) or a scalar (time spent in a specific activity intensity range) outcome, respectively.
 
