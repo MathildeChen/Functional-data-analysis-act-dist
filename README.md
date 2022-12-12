@@ -30,8 +30,6 @@ Data should include:
 - the scalar outcome for multivariate linear: individual daily duration of different activity behaviors (sedentary behaviour, ligh-intensity physical activity, moderate-to-vigorous physical activity)
 - the scalar exposures: mean daily waking time, socio-demographics factors, behavioural factors, health related factors, the interaction terms, if necessary 
 
-One dataset for each wave of data collection, excluding participants with missing covariates. One dataset restricted to participants with all measurements at each wave. 
-
 ## Step 2 - Load functions
 Specific functions to fit the models, extract coefficients and p values, and to plot the associations (heatmap for function-on-scalar regressions, table of coefficients for multivariate linear regressions)
 
